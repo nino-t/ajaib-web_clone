@@ -4,6 +4,7 @@ import AjbInputSearch from '../../../../components/ajb-input-search/index.compon
 import AjbMarketStatus from '../../../../components/ajb-market-status/index.component';
 import AjbSingleBanner from '../../../../components/ajb-single-banner/index.component';
 import AjbTabsUnderline from '../../../../components/ajb-tabs-underline/index.component';
+import StockWatchlist from '../../../stock-watchlist/index.feature';
 import { AjaibSidebarStyled } from './index.styled';
 
 const AjaibSidebar: React.FC = () => {
@@ -26,9 +27,7 @@ const AjaibSidebar: React.FC = () => {
         tabs={{
           'saham': {
             label: 'Saham',
-            content: (
-              <p>Hello World</p>
-            )
+            content: <StockWatchlist />
           },
           'reksa-dana': {
             label: 'Reksa Dana',
@@ -43,9 +42,7 @@ const AjaibSidebar: React.FC = () => {
         }}
       />
 
-      <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, width: '366px' }}>
-        <AjbMarketStatus isOpen={false} />
-      </div>
+      <AjbMarketStatus isOpen={false} />
     </AjaibSidebarStyled>
   )
 }

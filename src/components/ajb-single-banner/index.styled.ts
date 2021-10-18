@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const SingleBanner = styled.div`
   height: 112px;
+  overflow: hidden;
   background-color: rgb(250, 188, 42);
   box-shadow: rgb(51 51 51 / 12%) 0px 6px 12px -6px;
 

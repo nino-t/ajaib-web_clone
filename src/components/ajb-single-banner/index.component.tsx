@@ -5,10 +5,10 @@ import * as i from './index.interface';
 const AjbSingleBanner: React.FC<i.SingleBanner> = ({ url, textTag, textButton }) => {
   return (
     <s.SingleBanner>
-      <div>
+      <div className="py-2">
         <s.Banner src={url} alt={textTag} />
       </div>
-      <div>
+      <div className="py-2">
         <s.Tag>{textTag}</s.Tag>
         <s.Button type="button">
           {textButton}

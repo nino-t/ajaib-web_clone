@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
 export const MarketStatus = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  z-index: 99;
   padding: 8px;
   text-align-last: center;
   background-color: rgb(5, 56, 137); 
