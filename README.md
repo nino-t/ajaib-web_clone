@@ -1,6 +1,6 @@
 # ajaib-web_clone
 <br>
-![alt text](https://github.com/nino-t/ajaib-web_clone/blob/master/demo/demo.png)
+![alt text](https://github.com/nino-t/ajaib-web_clone/blob/master/demo/demo.png?raw=true)
 
 ### What you need for running app?
 
